@@ -23,7 +23,7 @@ def cargar_datos(ruta_archivo: str) -> pd.DataFrame:
     return df
 
 # Ajusta la ruta al archivo real (puede ser .csv o .xlsx según tu caso)
-RUTA_ARCHIVO = "D:\\SUDAMERICANA\\FORECAST STREAMLIT\\BD_STREAMLIT.xlsx"
+RUTA_ARCHIVO = "BD_STREAMLIT.xlsx"
 df = cargar_datos(RUTA_ARCHIVO)
 
 if df.empty:
